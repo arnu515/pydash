@@ -13,7 +13,7 @@ class Test(unittest.TestCase):
         self.assertNotEqual(PyDash.upper("TEST"), "test")
 
     def test_title_method(self):
-        self.assertEqual(PyDash.title("hello world"), "Hello world")
+        self.assertEqual(PyDash.title("hello world"), "Hello World")
         self.assertNotEqual(PyDash.title("hELLO wORLD"), "hello world")
 
     def test_kebab_method(self):
